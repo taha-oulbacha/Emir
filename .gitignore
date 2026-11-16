@@ -1,0 +1,20 @@
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local credentials; keep the documented template
+.env
+.env.*
+!.env.example
+
+# Operating-system and local editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
